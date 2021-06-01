@@ -10,4 +10,4 @@ The first video line (out of four) writes each pixel to the memory which is foll
 which simply copies the pixel information back to the output.
 A retransmit of the complete line is then performed for the next three HSYNC cycles.
 
-![Video Repeater schematics](AsynchronousFIFO.png?raw=true)
+![Video Repeater schematics](gtfifo4.png?raw=true)
