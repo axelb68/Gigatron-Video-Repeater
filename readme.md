@@ -15,7 +15,7 @@ A retransmit of the complete line is then performed for the next three HSYNC cyc
 The schematics of the repeater shows connector U1A which can be plugged into the U37 output register socket of the Gigatron. HSYNC is divided by two JK flipflops (U2). The result is used to initialize the internal read and write pointers of the SN74ACT7201 to the first location. A 74HCT574 latches the memory output and passes it back to connector U1A for VGA output.
 By means of a "scanlines on/off" jumper (JP1) the primary line can be blanked-out in order to create a "scanline look" similar to mode 1 of the Gigatron.
 
-![Assembled repeater](VideoRepeater.jpg?raw=true)
+![Assembled repeater](VideoRepeater.jpg)
 
 So far I tested the board with different clones/extensions of the SN74ACT7201. IDT7201-15, IDT7202-25, and QS7204-15 worked fine.
 The picture shows a mixture of 74F, 74ACT, and 74LS components which is not important, however. It is sufficient to use the HCT versions or even LS for the flipflops and the logic.
