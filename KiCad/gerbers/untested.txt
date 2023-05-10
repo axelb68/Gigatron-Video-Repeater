@@ -1,0 +1,1 @@
+Gerber files ar NOT tested as the baord was created directly from the pcb !
